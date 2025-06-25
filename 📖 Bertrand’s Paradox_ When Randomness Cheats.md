@@ -302,7 +302,7 @@ Red points mark chosen spots.
 Blue chords for long, grey for short.
 Here we can notice the dense cluster of points near the center generating long chords.
 
-We can observe that the result we got from our theoretical approach and the simulated approach is approximately same.
+We can observe that the result we got from our theoretical approach and the simulated approach is approximately same. i.e: 1/2=0.5
 
 Isn't it fascinating?! Getting different result with the same values? Mind=Blown?
 
@@ -397,10 +397,9 @@ Counted those within R/2 from center as “long chords” (blue). Grey points fo
 
 Notice how blue points cluster inside an invisible smaller circle at the center — precisely as theory predicts.
 
-
 Our result: 0.248
 
-Nearly perfect match to expected 0.25.
+Nearly perfect match to expected 1/4=0.25.
 
 *Code snippet*
 
