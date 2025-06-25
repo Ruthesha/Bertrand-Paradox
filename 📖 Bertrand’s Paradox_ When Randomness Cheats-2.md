@@ -1,6 +1,4 @@
 ---
-title: "\U0001F4D6 Bertrand’s Paradox: When Randomness Cheats"
-
 ---
 
 # **Geometry, Probability, and Cookies: The Curious Case of Bertrand’s Paradox**
@@ -19,12 +17,10 @@ Let us solve a simple Puzzle
 
 Imagine you have a big round cookie (let's call it a circle), and inside it, there’s a perfectly shaped triangle with equal sides — like this:
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://hackmd.io/_uploads/HkuCN7FEle.png" width="300">
   <div><em>Figure-1</em></div>
 </div>
-
-
 
 
 Now, here’s the question:
@@ -45,7 +41,7 @@ Maybe always?
 A chord is just a straight line that goes from one side of a circle to another.
 Like a piece of spaghetti lying across a pizza.
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://hackmd.io/_uploads/B1pu8mYVxg.png" width="300">
   <div><em>Figure-2</em></div>
 </div>
@@ -85,7 +81,7 @@ Then, without peeking — poke it again somewhere else along the edge.
 
 Now… connect those two pokes with a string.
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://hackmd.io/_uploads/S1pYYXY4el.png" width="250">
   <div><em>Figure-3</em></div>
 </div>
@@ -118,7 +114,7 @@ The side length of an equilateral triangle inscribed in a circle of radius 1 is 
 
 Why? Because of this beautiful right-angled triangle hidden inside:
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://hackmd.io/_uploads/S1vcOSFElg.png" width="300">
   <div><em>Figure-4</em></div>
 </div>
@@ -160,11 +156,8 @@ Then counts how many are longer than √3
 Here is the simulation:
 
 <div align="center">
-  <iframe src="https://drive.google.com/file/d/1aINVHAswNqrWYluFejBRMpNprvunn9M3/preview" 
-          width="50%" height="500" allow="autoplay">
-  </iframe>
+  <img src="Method1.gif" alt="Method 1 Simulation" width="400"/>
 </div>
-
 
 
 We color them:
@@ -178,11 +171,11 @@ After thousands of chords:
 Count the blue ones.
 
 Divide by total chords.
-<div style="text-align: center;"> <strong>35/112 = 0.312</strong> </div> <br>
+<div align="center""> <strong>35/112 = 0.312</strong> </div> <br>
 
 Bingo! That’s super close to
 
-<div style="text-align: center;"> <strong>1/3 = 0.3333</strong> </div>
+<div align="center"> <strong>1/3 = 0.3333</strong> </div>
 
 Magic confirmed ✨
 
@@ -225,7 +218,7 @@ Now, pick a random spot somewhere along that spinner line, from the middle of th
 
 At that point, draw a line (a chord) going across the cookie, but it must be straight and perpendicular to your spinner line.
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://hackmd.io/_uploads/rkU1smFNge.png" width="300">
   <div><em>Figure-5</em></div>
 </div>
@@ -301,12 +294,8 @@ So — we have a 50% chance of getting a long chord!
 For you to better understand, here is a simulation:
 
 <div align="center">
-  <iframe src="https://drive.google.com/file/d/13iGaDU-jybJtfkERpqN2KuBtmc_feI4Z/preview" 
-          width="50%" height="500" allow="autoplay">
-  </iframe>
+  <img src="Method2.gif" alt="Method 2 Simulation" width="400"/>
 </div>
-
-
 
 
 Red points mark chosen spots.
@@ -337,7 +326,7 @@ Hold on! Before you completely get awe-struck, we have another method..let's loo
 Drop a candy anywhere inside the cookie.
 Then draw a chord through that point. 
 
-<div style="text-align: center;">
+<div align="center">
   <img src="https://hackmd.io/_uploads/H1U857KEle.png" width="300">
   <div><em>Figure-6</em></div>
 </div>
@@ -399,9 +388,7 @@ So — you have a 25% chance of getting a long chord!
 Let's us observe these through simulations:
 
 <div align="center">
-  <iframe src="https://drive.google.com/file/d/1hTwHyq-chDUqNcUsVxk3Q58ZN_RfOog0/preview" 
-          width="50%" height="500" allow="autoplay">
-  </iframe>
+  <img src="Method3.gif" alt="Method 3 Simulation" width="400"/>
 </div>
 
 
