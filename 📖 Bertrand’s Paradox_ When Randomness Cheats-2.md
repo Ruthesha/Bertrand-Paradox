@@ -441,8 +441,8 @@ Context matters.
 
 ---
 Codes:
+[View the notebook here](Code.ipynb)
 
-Notebook link:[https://drive.google.com/file/d/1JzbGgWJkKXRNHoSeXxPwfTvPD189sdXP/view?usp=sharing](https://)
 
 *Make sure to play with the codes..;D*
 
